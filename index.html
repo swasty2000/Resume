@@ -236,6 +236,8 @@
     padding:13px 0;
   }
   .stack-row + .stack-row{ border-top:1px solid var(--line); }
+  .stack-value .stack{ margin-top:0; }
+  .chip-lang{ background:var(--card); font-size:13px; padding:6px 14px; }
   .stack-label{ font-weight:700; color:var(--primary-deep); font-size:14px; }
   .stack-value{ color:var(--text-soft); font-size:14px; line-height:1.55; }
   @media (max-width: 640px){
@@ -458,11 +460,12 @@
         <span>Технологии и языки</span>
       </div>
       <div class="card">
+          <div class="stack-row"><span class="stack-label">Data Science</span><span class="stack-value">Анализ данных на Python, основы машинного обучения</span></div>
+          <div class="stack-row"><span class="stack-label">LLM</span><span class="stack-value">Работа с языковыми моделями через API, интеграция в мобильное приложение, промпты</span></div>
           <div class="stack-row"><span class="stack-label">Языки программирования</span><span class="stack-value">Python, Kotlin</span></div>
-          <div class="stack-row"><span class="stack-label">Разработка и API</span><span class="stack-value">HTML, Android SDK, REST API, AI API</span></div>
-          <div class="stack-row"><span class="stack-label">Инструменты</span><span class="stack-value">Git, GitHub, Gradle, JupyterLab</span></div>
-          <div class="stack-row"><span class="stack-label">Data Science</span><span class="stack-value">Python для анализа данных, курс «Введение в Data Science и машинное обучение» (Stepik)</span></div>
-          <div class="stack-row"><span class="stack-label">Иностранные языки</span><span class="stack-value">Английский — C1, Французский — B2, Китайский — HSK 2</span></div>
+          <div class="stack-row"><span class="stack-label">Разработка</span><span class="stack-value">HTML, Android SDK, REST API</span></div>
+          <div class="stack-row"><span class="stack-label">Инструменты</span><span class="stack-value">Git, GitHub, Gradle, JupyterLab, Claude, Codex</span></div>
+          <div class="stack-row"><span class="stack-label">Иностранные языки</span><span class="stack-value"><span class="stack"><span class="chip chip-lang">Английский — C1</span><span class="chip chip-lang">Французский — B2</span><span class="chip chip-lang">Китайский — HSK 2</span></span></span></div>
         </div>
     </div>
   </section>
